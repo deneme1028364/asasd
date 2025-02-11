@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.design-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.design-option {
+    cursor: pointer;
+    text-align: center;
+}
+
+.design-option img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.customization {
+    margin: 20px 0;
+}
+
+#generated-code {
+    margin-top: 30px;
+}

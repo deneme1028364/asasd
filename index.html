@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Tasarım Seçimi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Site Tasarımınızı Seçin</h1>
+        
+        <!-- Kullanıcıya farklı site şablonlarını göster -->
+        <div class="design-options">
+            <div class="design-option" data-design="design1">
+                <img src="design1.jpg" alt="Design 1">
+                <p>Şablon 1</p>
+            </div>
+            <div class="design-option" data-design="design2">
+                <img src="design2.jpg" alt="Design 2">
+                <p>Şablon 2</p>
+            </div>
+            <!-- Daha fazla şablon ekleyebilirsiniz -->
+        </div>
+
+        <!-- Kullanıcı seçtiği şablonu özelleştirecek -->
+        <div class="customization">
+            <label for="custom-text">Yazıyı Değiştirin:</label>
+            <input type="text" id="custom-text" placeholder="Yeni metni girin...">
+            <button id="update-text">Yazıyı Güncelle</button>
+        </div>
+
+        <div id="generated-code">
+            <h2>Oluşturduğunuz Site HTML Kodu:</h2>
+            <pre id="html-code">Buraya HTML Kodu Yükleyecek...</pre>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
